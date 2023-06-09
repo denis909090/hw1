@@ -1,9 +1,142 @@
-.WebStudio {
-    font-size: 26px;
-    margin: 24px 1240px 25px 215px;
+.menu-list,
+.list-item {
+    list-style: none;
 }
 
-.Stydia {
+.link:hover,
+.link:focus {
+    color: #2196F3;
+}
+
+.link {
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+
+
+.nav-list-link {
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
     font-size: 14px;
-    margin: 10px 1102px 32px 453px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus,
+.mail:hover,
+.mail:focus {
+    color: #2196F3;
+}
+
+.mail {
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.contact-number {
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.contact-number:hover,
+.contact-number:focus {
+    color: #2196F3;
+}
+
+.text-table {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #188CE8;
+}
+
+.button {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+.description {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.description-of-groups {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.activites,
+.personnel {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.address-description {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: tomato;
 }
